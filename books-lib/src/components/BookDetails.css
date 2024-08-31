@@ -1,0 +1,30 @@
+.book-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.book-detail-image {
+    width: 300px;
+    height: 300px;
+}
+
+.book-detail-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book-detail-author, .book-detail-date, .book-detail-rating, .book-detail-desc {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.back-to-browse{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    background-color: rgba(62, 11, 109, 0.955);
+    padding: 8px;
+    border-radius: 15px;
+}

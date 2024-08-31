@@ -1,0 +1,59 @@
+.container {
+    padding: 20px;
+    background-color: rgba(247, 240, 240, 0.796);
+    width: 100%;
+}
+
+.container h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container p {
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to next line if needed */
+    gap: 20px; /* Adds space between cards */
+    justify-content: flex-start; /* Aligns cards to the start */
+    padding-left: 50px;
+}
+
+.book-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 320px; /* Fixed width for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.404); /* Adds subtle shadow for better visibility */
+    background-color: #fff; /* Ensures a white background for better contrast */
+    display: flex;
+    flex-direction: column; /* Aligns content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text */
+}
+
+.book-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.book-author {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.book-date, .book-desc {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
