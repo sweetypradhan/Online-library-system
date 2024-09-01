@@ -15,17 +15,17 @@ Welcome to the Online Library System project! This application allows users to b
 - **React Router**: Routing library for navigating between different views.
 - **CSS**: For styling the application.
 
-so we have to install react router dom - npm install react-router-dom,
-react redux - npm install react redux
-redux toolkit- npm install @reduxjs/toolkit react-redux
+so we have to install react router dom - "npm install react-router-dom",
+react redux - "npm install react redux"
+redux toolkit- "npm install @reduxjs/toolkit react-redux" 
 to run this project
 
 
-TO run the project first we have to type cd books-lib to go to the library project.
+To run the project first we have to type "cd books-lib" in terminal to go to the library project.
 
 To start the application in development mode, run: "npm run dev"
 
 This will open the app in your default browser. The app will reload automatically if you make any changes to the code.
 
 
-
+My github link :- https://github.com/sweetypradhan/Online-library-system
